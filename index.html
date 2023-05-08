@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Chart JS</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+
+    <script defer src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script defer src="js/main.js"></script>
+
+</head>
+
+<body>
+  <header>
+    <!-- place navbar here -->
+  </header>
+  <main>
+    <div class="container-md">
+        <div class="row">
+          <div class="col-12">
+            <h2>Chart JS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-6">
+            <p>Chart JS is een JavaScript bibliotheek waarmee je grafieken en diagrammen kunt maken.</p>
+            <p>Op de website van Chart JS kun je heel veel informatie vinden over hoe je zo een grafiek of diagram kunt aanmaken. Zie 
+                bijvoorbeeld <a href="https://www.chartjs.org/docs/latest/getting-started/" target="_blank">Chart JS</a> voor de 'getting started'.
+            </p>
+            <p>Hiernaast zie je een voorbeeld van een grafiek met het aantal studenten per klas (aantallen kloppen niet met de werkelijkheid).</p>
+          </div>
+          <div class="col-6">
+            <canvas class="chart-example"></canvas>
+          </div>
+          <div class="col-12">
+            <h3>De opdracht:</h3>
+            <p>Hieronder staan 2 canvas elementen. Eén voor opdracht 1 en één voor opdracht 2.</p>
+            <p>Voor opdracht 1 ga je de json fetchen uit het mapje json met de naam 'assignment1.json'. De data uit deze json ga
+                je afbeelden in een grafiek op het canvas met de class 'chart-assignment-1'.
+                De grafiek laat het aantal JavaScript ontwikkelaars zien over de jaren 2017 tot 2021.
+            </p>
+            <p>Voor opdracht 2 ga je de json fetchen uit het mapje json met de naam 'assignment2.json'. De data uit deze json ga
+                je afbeelden in een grafiek op het canvas met de class 'chart-assignment-2'.
+                De grafiek laat het aantal ontwikkelaars zien van diverse programmeertalen over de jaren 2017 tot 2021.
+            </p>
+            <p>Beide opdrachten uitgewerkt? Heel goed. Voeg nog een grafiek of diagram toe met data uit een zelfgekozen API. 
+              Probeer ook te experimenteren met de verschillende chart types zoals 'pie', 'doughnut', 'bar', 'bubble', etc..</p>
+            <p></p>
+          </div>
+        </div>
+      </div>
+      <div class="container-md">
+        <div class="row">
+            <div class="col border">
+                <h5>Grafiek opdracht 1.</h5>
+                <canvas class="chart-assignment-1"></canvas>
+            </div>
+            <div class="col border">
+                <h5>Grafiek opdracht 2.</h5>
+                <canvas class="chart-assignment-2"></canvas>
+            </div>
+        </div>
+      </div>
+  </main>
+  <footer>
+    <!-- place footer here -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
